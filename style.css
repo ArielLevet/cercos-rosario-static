@@ -243,13 +243,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 .site-footer strong { display: block; color: #fff; margin-bottom: .5rem; }
 .footer-name { font-size: 1.2rem; }
 .site-footer li { padding: .15rem 0; }
-.footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 2rem; }
+.footer-grid { display: grid; gap: 1.1rem; }
 .copyright { margin: 2rem auto 0; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, .15); font-size: .85rem; opacity: .7; }
 
 @media (max-width: 40rem) {
   /* Pie compacto en celular */
   .site-footer { padding-top: 1.75rem; font-size: .92rem; }
-  .footer-grid { grid-template-columns: 1fr; gap: 1.25rem; }
+  .footer-grid { gap: .9rem; }
   .footer-grid > div:first-child p { margin-bottom: 0; }
   .site-footer strong { margin-bottom: .3rem; }
   .site-footer li { padding: .1rem 0; overflow-wrap: anywhere; }
