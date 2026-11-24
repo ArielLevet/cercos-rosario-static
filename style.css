@@ -247,10 +247,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .copyright { margin: 2rem auto 0; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, .15); font-size: .85rem; opacity: .7; }
 
 @media (max-width: 40rem) {
-  /* Pie: nombre arriba a lo ancho; contacto y trabajos lado a lado */
+  /* Pie compacto en celular */
   .site-footer { padding-top: 1.75rem; font-size: .92rem; }
-  .footer-grid { grid-template-columns: 1.4fr 1fr; gap: 1.25rem 1rem; }
-  .footer-grid > div:first-child { grid-column: 1 / -1; }
+  .footer-grid { grid-template-columns: 1fr; gap: 1.25rem; }
   .footer-grid > div:first-child p { margin-bottom: 0; }
   .site-footer strong { margin-bottom: .3rem; }
   .site-footer li { padding: .1rem 0; overflow-wrap: anywhere; }
