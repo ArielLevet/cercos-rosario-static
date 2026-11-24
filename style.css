@@ -229,12 +229,12 @@ ul { margin: 0; padding: 0; list-style: none; }
   position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 40;
   display: grid; place-items: center;
   width: 3.4rem; height: 3.4rem;
-  border-radius: 50%; background: #1fa855;
+  border-radius: 50%; background: var(--green-700); border: 2px solid rgba(255, 255, 255, .9);
   box-shadow: 0 6px 20px rgba(0, 0, 0, .28);
   transition: background-color .15s, transform .15s;
 }
 .whatsapp-float img { width: 28px; height: 28px; }
-.whatsapp-float:hover { background: #178a45; transform: translateY(-3px); }
+.whatsapp-float:hover { background: var(--green-900); transform: translateY(-3px); }
 
 /* ---------- Pie ---------- */
 .site-footer { background: #0a2b26; color: rgba(255, 255, 255, .85); padding: 2.5rem 0 calc(5.25rem + env(safe-area-inset-bottom, 0px)); font-size: .98rem; }
