@@ -226,8 +226,21 @@ ul { margin: 0; padding: 0; list-style: none; }
   .cta { padding: 2rem 0; }
 }
 
+/* ---------- WhatsApp flotante ---------- */
+.whatsapp-float {
+  position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 40;
+  display: flex; align-items: center; gap: .6rem;
+  min-height: 3.1rem; padding: .7rem 1.1rem;
+  border-radius: 6px; background: #1fa855; color: #fff;
+  font-weight: 700; font-size: .95rem; text-decoration: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .28);
+  transition: background-color .15s, transform .15s;
+}
+.whatsapp-float img { flex: none; width: 24px; height: 24px; }
+.whatsapp-float:hover { background: #178a45; transform: translateY(-3px); }
+
 /* ---------- Pie ---------- */
-.site-footer { background: #0a2b26; color: rgba(255, 255, 255, .85); padding: 2.5rem 0 1rem; font-size: .98rem; }
+.site-footer { background: #0a2b26; color: rgba(255, 255, 255, .85); padding: 2.5rem 0 calc(5rem + env(safe-area-inset-bottom, 0px)); font-size: .98rem; }
 .site-footer a { color: #fff; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
 .site-footer strong { display: block; color: #fff; margin-bottom: .5rem; }
