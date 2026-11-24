@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+.venv/
+__pycache__/
+.local/
+/originals/*
+!/originals/README.md

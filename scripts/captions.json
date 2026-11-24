@@ -1,0 +1,32 @@
+{
+  "cercos": {
+    "cerco1": "Cerco de tejido romboidal",
+    "cerco2": "Cerco de pileta",
+    "cerco3": "Cerco de pileta",
+    "cerco4": "División de jardín",
+    "cerco5": "Cerco de tejido romboidal",
+    "cerco6": "Cerco con durmientes y zócalo de ladrillos"
+  },
+  "portones": {
+    "porton1": "Portón de madera y marco de hierro",
+    "porton2": "Portón de hierro con calados artísticos",
+    "porton3": "Portón de madera de abrir con curva",
+    "porton4": "Portón corredizo de hierro",
+    "porton5": "Portón de madera corredizo",
+    "porton6": "Portón oblicuo corredizo de hierro",
+    "porton7": "Portón revestido con tejido rombo",
+    "porton8": "Frente de rejas con portón corredizo",
+    "porton9": "Portón de madera embutida en marco de hierro"
+  },
+  "construccion": {
+    "constru1": "Construcción completa",
+    "constru2": "Construcción completa",
+    "constru3": "Frente de terreno",
+    "constru4": "Fuente con cascada",
+    "constru5": "Fuente con cascada en construcción",
+    "constru6": "Vivienda",
+    "constru7": "Frente de madera",
+    "constru8": "Puente en construcción",
+    "constru9": "Pilares y cerco"
+  }
+}
