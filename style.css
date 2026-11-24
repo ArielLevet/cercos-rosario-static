@@ -161,6 +161,16 @@ ul { margin: 0; padding: 0; list-style: none; }
 .section-alt .chips li { background: #fff; }
 .section:not(.section-alt) .chips li { background: var(--bg-alt); border-color: transparent; }
 
+/* ---------- Lista "Hacemos" (subpáginas) ---------- */
+.hacemos { columns: 2 17rem; column-gap: 2.5rem; font-size: 1.1rem; }
+.hacemos li { position: relative; padding-left: 1.7rem; margin-bottom: .55rem; break-inside: avoid; }
+.hacemos li::before {
+  content: ""; position: absolute; left: .2rem; top: .32em;
+  width: .38rem; height: .75rem;
+  border-right: 3px solid var(--teal); border-bottom: 3px solid var(--teal);
+  transform: rotate(40deg);
+}
+
 /* ---------- Galería ---------- */
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1.25rem; }
 .gallery figure { margin: 0; background: #fff; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); }
