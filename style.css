@@ -229,7 +229,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 40;
   display: grid; place-items: center;
   width: 3.4rem; height: 3.4rem;
-  border-radius: 6px; background: #1fa855;
+  border-radius: 50%; background: #1fa855;
   box-shadow: 0 6px 20px rgba(0, 0, 0, .28);
   transition: background-color .15s, transform .15s;
 }
