@@ -155,11 +155,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .card p { color: var(--muted); margin-bottom: .6rem; }
 .more { color: var(--teal-dark); font-weight: 600; }
 
-/* ---------- Etiquetas ---------- */
-.chips { display: flex; flex-wrap: wrap; gap: .6rem; }
-.chips li { background: #fff; border: 1px solid var(--line); color: var(--green-900); padding: .45rem 1rem; border-radius: 4px; font-weight: 500; }
-.section-alt .chips li { background: #fff; }
-.section:not(.section-alt) .chips li { background: var(--bg-alt); border-color: transparent; }
+/* ---------- Localidades ---------- */
+.localidades { font-size: 1.15rem; margin: 0; }
 
 /* ---------- Lista "Hacemos" (subpáginas): texto corrido con separadores ---------- */
 .hacemos { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem 1.4rem; font-size: 1.1rem; }
