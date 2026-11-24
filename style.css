@@ -161,9 +161,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 .section-alt .chips li { background: #fff; }
 .section:not(.section-alt) .chips li { background: var(--bg-alt); border-color: transparent; }
 
-/* ---------- Lista "Hacemos" (subpáginas) ---------- */
-.hacemos { columns: 2 17rem; column-gap: 2.5rem; font-size: 1.1rem; }
-.hacemos li { border-left: 4px solid var(--teal); padding: .15rem 0 .15rem .9rem; margin-bottom: .8rem; break-inside: avoid; }
+/* ---------- Lista "Hacemos" (subpáginas): texto corrido con separadores ---------- */
+.hacemos { display: flex; flex-wrap: wrap; align-items: center; row-gap: .35rem; font-size: 1.1rem; }
+.hacemos li:not(:last-child)::after {
+  content: ""; display: inline-block; vertical-align: middle;
+  width: 6px; height: 6px; margin: 0 .85rem;
+  background: var(--teal); transform: rotate(45deg);
+}
 
 /* ---------- Galería ---------- */
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1.25rem; }
@@ -213,6 +217,17 @@ ul { margin: 0; padding: 0; list-style: none; }
 .contact-info li:first-child { border-top: 0; }
 .contact-info span { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
 .contact-info a { font-weight: 600; word-break: break-word; }
+
+/* ---------- Celulares: menos aire vertical ---------- */
+@media (max-width: 40rem) {
+  .section { padding: 1.75rem 0; }
+  .page-title { padding: 1.5rem 0; }
+  .page-title p { font-size: 1rem; }
+  .section-title { font-size: 1.4rem; margin-bottom: 1rem; }
+  .hacemos { font-size: 1.02rem; }
+  .hacemos li:not(:last-child)::after { margin: 0 .6rem; }
+  .cta { padding: 2rem 0; }
+}
 
 /* ---------- Pie ---------- */
 .site-footer { background: #0a2b26; color: rgba(255, 255, 255, .85); padding: 2.5rem 0 1rem; font-size: .98rem; }
